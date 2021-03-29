@@ -1,0 +1,20 @@
+body
+{
+background-image: url("Lion-HD-Wallpaper.jpg");
+background-size: cover;
+}
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+  
+}
+.btn{
+    font-size: 22px;
+    border: 1px solid white;
+}
