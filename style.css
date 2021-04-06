@@ -12,9 +12,22 @@ background-size: cover;
 }
 .heading button{
     float: right;
-  
+    margin-left: 10px;
 }
 .btn{
     font-size: 22px;
     border: 1px solid white;
+}
+#footer{
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    font-size: 20px;
+}
+.wrist{
+    width: 200px;
+    height: 200px;
 }

@@ -20,7 +20,8 @@
     <center>
         <div class="btn btn-primary heading">
             <h3>AI PING PONG GAME</h3>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
+            <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Instructions</button>
+            <button class="btn btn-info" id="restart" onclick="restart()">Restart</button>
         </div>
         <br>
         <br>
@@ -32,8 +33,30 @@
         <br>
         <div id="canvas"></div>
         <br>
-        <br>
     </center>
+    <div id="footer">
+        Developed by Vyom Dave
+    </div>
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+                    <h4 class="modal-title">Instructions</h4>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <h1>Use your right wrist to move the paddle up and down</h1>
+                        <img src="https://images.unsplash.com/photo-1565685923429-b536b65b62cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" class="wrist">
+                        <h2>Beat That computer!</h2>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 
